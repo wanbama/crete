@@ -164,6 +164,10 @@
     font-weight: 500;
 }
 
+.titleBoxStyle1 .more a {
+    text-decoration: underline;
+}
+
 @media (max-width: 767px) {
     .featureList .box {
         position: absolute;

@@ -188,7 +188,7 @@ img {
 
 .wrap {
     width: 100%;
-    max-width: 1024px;
+    max-width: 1128px;
     margin-left: auto;
     margin-right: auto;
     padding-left: 20px;
@@ -210,8 +210,12 @@ img {
 
 @media (max-width: 767px) {
     .wrap.ins {
-        padding-left: 20px;
-        padding-right: 20px;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    .wrap.bannerfull {
+        padding-left: 0px;
+        padding-right: 0px;
     }
 }
 
@@ -627,7 +631,7 @@ header .searchLink img {
     padding-left: 10px;
     padding-right: 10px;
     padding-bottom: 15px;
-    color: #4A5C8F;
+    color: #205D7A;
 }
 
 .menu .link::after {
@@ -1472,6 +1476,8 @@ footer .link a:hover {
 .cardList.padding li {
     padding-left: 6px;
     padding-right: 6px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .selectStyle1 {
@@ -1535,8 +1541,8 @@ footer .link a:hover {
 }
 
 .sectionBox {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 @media (max-width: 640px) {
@@ -1621,7 +1627,6 @@ footer .link a:hover {
 
 .titleBoxStyle1 {
     display: flex;
-    align-items: center;
 }
 
 @media (max-width: 640px) {
@@ -1631,11 +1636,10 @@ footer .link a:hover {
 }
 
 .titleBoxStyle1 .title {
-    font-size: 28px;
-    margin-left: auto;
-    margin-right: auto;
+    font-size: 40px;
     color: #173E8C;
     font-weight: 700;
+    padding-bottom: 20px;
 }
 
 @media (max-width: 640px) {
@@ -2201,8 +2205,7 @@ footer .link a:hover {
     margin-top: 15px;
 }
 
-footer {
-    padding-top: 35px;
+footer .bottomBox {
     background-color: #173E8C;
 }
 
@@ -2210,7 +2213,8 @@ footer .bottomBox .wrap {
     position: relative;
     display: flex;
     flex-wrap: wrap;
-    /*padding-top: 20px;*/
+    padding-top: 60px;
+    padding-bottom: 60px;
 }
 
 @media (max-width: 767px) {
@@ -2254,6 +2258,10 @@ footer .bottomBox .left {
     width: 50%;
 }
 
+.basic-info .webParagraph .address {
+    margin-bottom: 30px;
+}
+
 @media (max-width: 767px) {
     footer .bottomBox .left {
         width: 100%;
@@ -2264,6 +2272,8 @@ footer .bottomBox .left {
         margin-left: auto;
         margin-right: auto;
         margin-top: 20px;
+        text-align: center;
+        margin-bottom: 20px;
     }
     footer .bottomBox .webTitle {
         text-align: center;
@@ -2372,6 +2382,7 @@ footer .bottomBox .info i {
     flex-shrink: 0;
     width: 20px;
     height: 20px;
+    margin-right: 15px;
 }
 
 footer .bottomBox .info .text {
@@ -2381,14 +2392,15 @@ footer .bottomBox .info .text {
 footer .shortcut {
     color: #fff;
     font-size: 14px;
-    line-height: 1.4;
+    line-height: 2;
 }
 
 .copyright {
     width: 100%;
-    padding-top: 15px;
+    padding-top: 30px;
+    padding-bottom: 30px;
     font-size: 12px;
-    color: #FFF;
+    color: #838990;
 }
 
 #back-to-top:hover {
@@ -2484,4 +2496,53 @@ footer .shortcut {
 
 .date .fa.fa-calendar {
     margin-right: 10px;
+}
+
+.copyrightBox {
+    display: flex;
+}
+
+.polygon-top::before,
+.polygon-bottom::after,
+.polygon-top-2::before,
+.polygon-bottom-2::after {
+    content: '';
+    position: absolute;
+    left: -17px;
+    z-index: 1;
+    width: 0;
+    height: 0;
+    border-style: solid;
+}
+
+.polygon-top::before {
+    /*dr2ul*/
+    top: 0;
+    border-width: 1.5rem 50vw 1.5rem 50vw;
+    border-color: #F2F2F2 #F2F2F2 transparent transparent;
+}
+
+.polygon-bottom::after {
+    /*ur2dl*/
+    bottom: 0;
+    border-width: 1.5rem 50vw 1.5rem 50vw;
+    border-color: transparent #F2F2F2 #F2F2F2 transparent;
+}
+
+.polygon-bottom-2::after {
+    /*ur2dl*/
+    bottom: 0;
+    border-width: 1.5rem 50vw 1.5rem 50vw;
+    border-color: #F2F2F2 transparent transparent #F2F2F2;
+}
+
+.polygon-top-2::before {
+    /*dr2ul*/
+    top: 0;
+    border-width: 1.5rem 50vw 1.5rem 50vw;
+    border-color: #F2F2F2 transparent transparent #F2F2F2;
+}
+
+.bg-grey {
+    background-color: #F2F2F2;
 }

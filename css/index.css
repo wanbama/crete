@@ -7,13 +7,12 @@
     }
 }
 
-.mainBox {
-    padding-top: 0;
-}
-
 @media (max-width: 767px) {
     header .middleBox {
         display: block;
+    }
+    .mainBox {
+        padding-top: 0;
     }
 }
 
@@ -25,7 +24,7 @@
 }
 
 .featureList li:nth-child(even) .pic {
-    background-color: #4ca9af;
+    background-color: #0463d5;
 }
 
 .featureList .itemBox {
@@ -62,20 +61,19 @@
 }
 
 .featureList .box {
-    position: absolute;
     z-index: 2;
     padding: 15px;
     color: #fff;
     top: 0px;
-    background-color: #4ca9af;
+    background-color: #275195;
     width: 100%;
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 .featureList .title {
     position: relative;
     font-family: "Playfair Display", serif;
-    font-size: 30px;
+    font-size: 28px;
     margin-bottom: 5px;
 }
 
@@ -120,8 +118,10 @@
 }
 
 .eventList li {
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 6px;
 }
 
 .eventList .pic img {
@@ -129,27 +129,45 @@
     width: 100%;
 }
 
-.eventList {
-    margin-left: -6px;
-    margin-right: -6px;
+.eventList .itemBox {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 10px;
+    background-color: white;
 }
 
-.eventList li {
-    padding-left: 6px;
-    padding-right: 6px;
+.cardList .itemBox:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0.7;
 }
 
-.eventList .pic img {
-    display: block;
-    width: 100%;
+.eventList .itemBox:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0.7;
+}
+
+.titleBoxStyle1 {
+    align-items: baseline;
+    justify-content: space-between;
+    padding: 20px;
 }
 
 .titleBoxStyle1 .title {
-    line-height: 1.4;
-    font-size: 20px;
     font-weight: 700;
     color: #000;
-    padding-bottom: 40px;
+    padding-bottom: 0px;
+}
+
+.titleBoxStyle1 .more {
+    font-size: 18px;
+    color: #173E8C;
+    font-weight: 500;
+}
+
+@media (max-width: 767px) {
+    .featureList .box {
+        position: absolute;
+    }
 }
 
 @media (min-width: 767px) {
@@ -168,9 +186,6 @@
 }
 
 @media (max-width: 640px) {
-    .sectionBox .titleBoxStyle1 {
-        text-align: center;
-    }
     .relatedList .webTitle,
     .relatedList .date {
         text-align: center;
@@ -179,4 +194,8 @@
     .eventList .date {
         text-align: center;
     }
+}
+
+.eventSection {
+    background-color: #f2f2f2;
 }

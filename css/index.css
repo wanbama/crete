@@ -175,6 +175,13 @@
     .featureList .box {
         position: absolute;
     }
+    .titleBoxStyle1 .title {
+        font-size: 28px;
+        width: 200px;
+    }
+    .titleBoxStyle1 .more {
+        font-size: 14px;
+    }
 }
 
 @media (min-width: 767px) {

@@ -208,6 +208,9 @@
     .eventList .date {
         text-align: center;
     }
+    .relatedList li {
+        padding: 20px;
+    }
 }
 
 .eventSection {
@@ -230,5 +233,6 @@
     .polygon-top-2::before,
     .polygon-bottom-2::after {
         left: 0px;
+        top: -1px;
     }
 }

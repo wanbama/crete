@@ -225,4 +225,10 @@
         border-width: 0.5rem 50vw 0.5rem 50vw;
         border-color: transparent #F2F2F2 #F2F2F2 transparent;
     }
+    .polygon-top::before,
+    .polygon-bottom::after,
+    .polygon-top-2::before,
+    .polygon-bottom-2::after {
+        left: 0px;
+    }
 }

@@ -34,3 +34,40 @@
         background-color: #fff;
     }
 }
+
+.relatedList li {
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.relatedList .itemBox {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    padding: 10px;
+    background-color: white;
+}
+
+.relatedList .itemBox:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+    opacity: 0.7;
+}
+
+.mainBox .topBox {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+#filter_event {
+    position: absolute;
+    right: 0px;
+}
+
+.mainBox .topBox .selectStyle1 {
+    width: 170px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 40px;
+}

@@ -1691,6 +1691,7 @@ footer .link a:hover {
 .pageBox {
     display: flex;
     justify-content: center;
+    margin-top: 20px;
 }
 
 .pageBox a,
@@ -2397,8 +2398,8 @@ footer .shortcut {
 
 .copyright {
     width: 100%;
-    padding-top: 30px;
-    padding-bottom: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
     font-size: 12px;
     color: #838990;
 }
@@ -2498,9 +2499,12 @@ footer .shortcut {
     margin-right: 10px;
 }
 
+
+/*
 .copyrightBox {
     display: flex;
 }
+*/
 
 .polygon-top::before,
 .polygon-bottom::after,
@@ -2545,4 +2549,33 @@ footer .shortcut {
 
 .bg-grey {
     background-color: #F2F2F2;
+}
+
+footer .copyrightBox .wrap {
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+footer .copyrightBox .right {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    height: 100%;
+}
+
+@media (max-width: 767px) {
+    footer .copyrightBox .wrap {
+        flex-direction: column-reverse;
+    }
+    footer .copyright {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+    footer .copyrightBox .right {
+        margin-left: 0px;
+        margin-top: 10px;
+    }
 }

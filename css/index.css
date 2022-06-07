@@ -197,6 +197,9 @@
     .relatedList .itemBox .bottom {
         background-color: #f7f7f7;
     }
+    .polygon-top::before {
+        border-color: #FFF #FFF transparent transparent;
+    }
 }
 
 @media (max-width: 640px) {

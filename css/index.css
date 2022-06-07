@@ -78,8 +78,11 @@
 }
 
 @media (max-width: 480px) {
+    .featureList .pic {
+        max-height: 200px;
+    }
     .featureList .title {
-        font-size: 32px;
+        font-size: 28px;
     }
 }
 

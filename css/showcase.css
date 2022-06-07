@@ -1,0 +1,36 @@
+.relatedList {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+}
+
+.relatedList li {
+    width: 33.3%;
+}
+
+@media (max-width: 900px) {
+    .relatedList li {
+        width: 50%;
+    }
+}
+
+@media screen and (max-width:500px) {
+    .relatedList li {
+        width: 100%;
+    }
+}
+
+.itemBox {
+    padding-bottom: 30px;
+}
+
+@media (min-width: 767px) {
+    .relatedList .itemBox {
+        display: block !important;
+    }
+    .relatedList .itemBox .bottom {
+        background-color: #fff;
+    }
+}

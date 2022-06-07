@@ -1,0 +1,23 @@
+.leftBox {
+  width: 78%;
+}
+@media (max-width: 767px) {
+  .leftBox {
+    width: 100%;
+  }
+}
+
+.rightBox {
+  width: 22%;
+  padding-left: 30px;
+}
+@media (max-width: 767px) {
+  .rightBox {
+    width: 100%;
+    padding-left: 0;
+  }
+}
+
+.blogList li {
+  margin-bottom: 24px;
+}

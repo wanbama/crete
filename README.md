@@ -1,2 +1,2 @@
 # crete
-CRETE Dummy
+CRETE CUHK 

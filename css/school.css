@@ -1,0 +1,199 @@
+@media (max-width: 767px) {
+    .wrapBox {
+        padding-top: 85px;
+    }
+}
+
+.mainBox {
+    padding-top: 0;
+}
+
+@media (max-width: 767px) {
+    header .middleBox {
+        display: block;
+    }
+}
+
+@media (max-width: 640px) {
+    .featureList.card2 li {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
+.featureList li:nth-child(even) .pic {
+    background-color: #4ca9af;
+}
+
+.featureList .itemBox {
+    position: relative;
+}
+
+.featureList .link {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.featureList .pic {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #4A5C8F;
+}
+
+.featureList .pic img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: blur(8px);
+    opacity: 0.2;
+}
+
+.featureList .box {
+    position: relative;
+    z-index: 2;
+    padding: 15px;
+    color: #fff;
+}
+
+.featureList .title {
+    position: relative;
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 480px) {
+    .featureList .title {
+        font-size: 32px;
+    }
+}
+
+.featureList .title::after {
+    content: "";
+    position: absolute;
+    left: -15px;
+    bottom: 0;
+    width: 55%;
+    height: 4px;
+    background-color: #fff;
+}
+
+.featureList .text {
+    margin-bottom: 20px;
+}
+
+.relatedList {
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.relatedList li {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.relatedList .pic img {
+    display: block;
+    width: 100%;
+}
+
+.eventList {
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.eventList li {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.eventList .pic img {
+    display: block;
+    width: 100%;
+}
+
+.eventList {
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.eventList li {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.eventList .pic img {
+    display: block;
+    width: 100%;
+}
+
+li.parties {
+    width: 25%;
+}
+
+.relatedList {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    align-items: start;
+    justify-content: center;
+}
+
+.itemBox {
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+    width: 100%;
+    height: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.itemBox .bottom {
+    width: 100%;
+    height: 100px;
+    /*margin-top: -65px;
+    padding: 90px 15px 0px;*/
+    padding: 20px 15px 10px 15px;
+    text-align: center;
+    background-color: white !important;
+}
+
+.itemBox .pic:hover {
+    background-color: #f7f7f7;
+}
+
+.itemBox .pic {
+    position: relative;
+    z-index: 3;
+    width: 150px;
+    height: 150px;
+    -ms-flex-negative: 0;
+    flex-shrink: 0;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid #f7f7f7;
+    -webkit-box-shadow: 0 0 0 5px white;
+    box-shadow: 0 0 0 5px white;
+    background-color: white;
+}

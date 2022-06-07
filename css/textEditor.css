@@ -1,0 +1,156 @@
+.textEditor pre,
+.textEditor code,
+.textEditor tt {
+  font: 1em/1.5em "Andale Mono", "Lucida Console", monospace;
+}
+.textEditor h1,
+.textEditor h2,
+.textEditor h3,
+.textEditor h4,
+.textEditor h5,
+.textEditor h6,
+.textEditor b,
+.textEditor strong {
+  font-weight: bold;
+}
+.textEditor em,
+.textEditor i,
+.textEditor dfn {
+  font-style: italic;
+}
+.textEditor dfn {
+  font-weight: bold;
+}
+.textEditor p,
+.textEditor code,
+.textEditor pre,
+.textEditor kbd {
+  margin: 0 0 1.5em 0;
+}
+.textEditor blockquote {
+  margin: 0 1.5em 1.5em 1.5em;
+}
+.textEditor cite {
+  font-style: italic;
+}
+.textEditor li ul,
+.textEditor li ol {
+  margin: 0 1.5em;
+}
+.textEditor ul,
+.textEditor ol {
+  margin: 0 1.5em 1.5em 1.5em;
+}
+.textEditor ul {
+  list-style-type: disc;
+}
+.textEditor ol {
+  list-style-type: decimal;
+}
+.textEditor ol ol {
+  list-style: upper-alpha;
+}
+.textEditor ol ol ol {
+  list-style: lower-roman;
+}
+.textEditor ol ol ol ol {
+  list-style: lower-alpha;
+}
+.textEditor dl {
+  margin: 0 0 1.5em 0;
+}
+.textEditor dl dt {
+  font-weight: bold;
+}
+.textEditor dd {
+  margin-left: 1.5em;
+}
+.textEditor table {
+  margin-bottom: 1.4em;
+  width: 100%;
+  max-width: 100%;
+}
+.textEditor tbody, .textEditor table, .textEditor tr, .textEditor thead, .textEditor td {
+  border: 1px solid black;
+  vertical-align: middle;
+}
+.textEditor th {
+  font-weight: bold;
+}
+.textEditor th,
+.textEditor td,
+.textEditor caption {
+  padding: 4px 10px 4px 5px;
+}
+.textEditor tfoot {
+  font-style: italic;
+}
+.textEditor sup,
+.textEditor sub {
+  line-height: 0;
+}
+.textEditor abbr,
+.textEditor acronym {
+  border-bottom: 1px dotted;
+}
+.textEditor address {
+  margin: 0 0 1.5em;
+  font-style: italic;
+}
+.textEditor del {
+  text-decoration: line-through;
+}
+.textEditor pre {
+  margin: 1.5em 0;
+  white-space: pre;
+}
+.textEditor img.centered,
+.textEditor .aligncenter,
+.textEditor div.aligncenter {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.textEditor img.alignright {
+  display: inline;
+}
+.textEditor img.alignleft {
+  display: inline;
+}
+.textEditor .alignright {
+  float: right;
+  margin-left: 10px;
+}
+.textEditor .alignleft {
+  float: left;
+  margin-right: 10px;
+}
+.textEditor img {
+  max-width: 100%;
+}
+.textEditor * html .clearfix {
+  height: 1%;
+}
+.textEditor * + html .clearfix {
+  display: inline-block;
+}
+.textEditor .clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.textEditor * html .group {
+  height: 1%;
+}
+.textEditor * + html .group {
+  display: inline-block;
+}
+.textEditor .group:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}

@@ -1,0 +1,27 @@
+.topBox {
+    display: flex;
+}
+
+.topBox h1{
+    width: 50%
+}
+
+.topBox .btnStyle2{
+    margin-left: auto;
+}
+
+@media (max-width: 375px) {
+    .topBox {
+        display: block;
+    }
+    .topBox .btnStyle2 a{
+       width: 100%;
+       margin-bottom: 20px;
+    }
+    .ins a{
+        width: 100%;
+    }
+    img {
+        width: 100%;
+    }
+}

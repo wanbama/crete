@@ -1,0 +1,182 @@
+@media (max-width: 767px) {
+    .wrapBox {
+        padding-top: 81px;
+    }
+    .related.slickDotBox {
+        display: none;
+    }
+}
+
+.mainBox {
+    padding-top: 0;
+}
+
+@media (max-width: 767px) {
+    header .middleBox {
+        display: block;
+    }
+}
+
+@media (max-width: 640px) {
+    .featureList.card2 li {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
+.featureList li:nth-child(even) .pic {
+    background-color: #4ca9af;
+}
+
+.featureList .itemBox {
+    position: relative;
+}
+
+.featureList .link {
+    position: absolute;
+    z-index: 10;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.featureList .pic {
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background-color: #4ca9af;
+    height: 250px;
+}
+
+.featureList .pic img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /*filter: blur(1px);*/
+    /*opacity: 0.3;*/
+}
+
+.featureList .box {
+    position: absolute;
+    z-index: 2;
+    padding: 15px;
+    color: #fff;
+    top: 0px;
+    background-color: #4ca9af;
+    width: 100%;
+    opacity: 0.7;
+}
+
+.featureList .title {
+    position: relative;
+    font-family: "Playfair Display", serif;
+    font-size: 30px;
+    margin-bottom: 5px;
+}
+
+@media (max-width: 480px) {
+    .featureList .title {
+        font-size: 32px;
+    }
+}
+
+.featureList .title::after {
+    content: "";
+    position: absolute;
+    left: -15px;
+    bottom: 0;
+    width: 55%;
+    height: 4px;
+    background-color: #fff;
+}
+
+.featureList .text {
+    margin-bottom: 20px;
+}
+
+.relatedList {
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.relatedList li {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.relatedList .pic img {
+    display: block;
+    width: 100%;
+}
+
+.eventList {
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.eventList li {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.eventList .pic img {
+    display: block;
+    width: 100%;
+}
+
+.eventList {
+    margin-left: -6px;
+    margin-right: -6px;
+}
+
+.eventList li {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.eventList .pic img {
+    display: block;
+    width: 100%;
+}
+
+.titleBoxStyle1 .title {
+    line-height: 1.4;
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+    padding-bottom: 40px;
+}
+
+@media (min-width: 767px) {
+    .relatedList .itemBox .left {
+        width: 35%;
+    }
+    .relatedList .itemBox .right {
+        width: 65%;
+    }
+    .relatedList .itemBox {
+        display: flex;
+    }
+    .relatedList .itemBox .bottom {
+        background-color: #f7f7f7;
+    }
+}
+
+@media (max-width: 640px) {
+    .sectionBox .titleBoxStyle1 {
+        text-align: center;
+    }
+    .relatedList .webTitle,
+    .relatedList .date {
+        text-align: center;
+    }
+    .eventList .webTitle,
+    .eventList .date {
+        text-align: center;
+    }
+}

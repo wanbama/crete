@@ -1,0 +1,16 @@
+.mainBox .topBox {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+@media (max-width: 480px) {
+  .tabLink {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+.tabLink {
+    margin-bottom: 15px;
+}

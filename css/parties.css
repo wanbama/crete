@@ -1,14 +1,4 @@
 @media (max-width: 767px) {
-    .wrapBox {
-        padding-top: 85px;
-    }
-}
-
-.mainBox {
-    padding-top: 0;
-}
-
-@media (max-width: 767px) {
     header .middleBox {
         display: block;
     }

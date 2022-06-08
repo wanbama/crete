@@ -219,22 +219,3 @@
 .eventSection {
     background-color: #f2f2f2;
 }
-
-@media (max-width: 767px) {
-    .polygon-top-2::before {
-        border-width: 0.5rem 50vw 0.5rem 50vw;
-        border-color: #F2F2F2 #F2F2F2 transparent transparent;
-    }
-    .polygon-bottom::after {
-        /*ur2dl*/
-        bottom: 0;
-        border-width: 0.5rem 50vw 0.5rem 50vw;
-        border-color: transparent #F2F2F2 #F2F2F2 transparent;
-    }
-    .polygon-top::before,
-    .polygon-bottom::after,
-    .polygon-top-2::before,
-    .polygon-bottom-2::after {
-        left: 0px;
-    }
-}

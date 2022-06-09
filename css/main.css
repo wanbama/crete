@@ -464,14 +464,14 @@ header .searchLink img {
 }
 
 .dropDownBox .main::before {
-    content: "";
+    content: "\25bc";
     position: absolute;
-    right: 10px;
-    top: 50%;
-    margin-top: -2.5px;
+    right: 16px;
+    top: 32%;
+    /* margin-top: -2.5px; */
     width: 10px;
-    height: 5px;
-    background-image: url("../images/arrow_down.png");
+    height: 20px;
+    /* background-image: url(../images/arrow_down.png); */
     background-size: contain;
     background-repeat: no-repeat;
 }

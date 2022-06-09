@@ -2641,13 +2641,3 @@ footer .copyrightBox .right {
     position: absolute;
 }
 */
-
-.bannerBox::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    width: 100%;
-    height: 3px;
-    background: #242b51;
-    animation: animate 5s linear infinite;
-}

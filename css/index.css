@@ -157,19 +157,18 @@
 
 .titleBoxStyle1 .title {
     font-weight: 700;
-    color: #70748d;
+    color: #292f55;
     padding-bottom: 0px;
 }
 
 .titleBoxStyle1 .more {
-    font-size: 16px;
+    font-size: 14px;
     color: #70748d;
     font-weight: 500;
 }
 
-.titleBoxStyle1 .more a {
-    text-decoration: underline;
-    color: #275195;
+.titleBoxStyle1 .more a:hover {
+    border-bottom: 1px solid #275195;
 }
 
 @media (max-width: 767px) {
@@ -196,7 +195,7 @@
         display: flex;
     }
     .relatedList .itemBox .bottom {
-        background-color: #f7f7f7;
+        background-color: #f5e2c7;
     }
     .polygon-top::before {
         border-color: #FFF #FFF transparent transparent;
@@ -258,4 +257,15 @@
 
 .bannerList.index {
     visibility: hidden;
+}
+
+.index-feature::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 5px;
+    background: #2577c3;
+    animation: animate 5s linear infinite;
 }

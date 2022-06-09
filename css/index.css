@@ -260,7 +260,7 @@
     visibility: hidden;
 }
 
-.bannerBox::after {
+.bannerBox.index::after {
     content: "";
     position: absolute;
     left: 0;

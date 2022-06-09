@@ -430,6 +430,7 @@ header .searchLink img {
 
 .headerTopLogo img {
     display: block;
+    height: 55px;
 }
 
 .dropDownBox {

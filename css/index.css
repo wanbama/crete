@@ -24,7 +24,7 @@
 }
 
 .featureList li:nth-child(even) .pic {
-    background-color: #0463d5;
+    background-color: #FFF;
 }
 
 .featureList .itemBox {

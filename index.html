@@ -183,7 +183,7 @@
         <main class="mainBox">
             <section class="bannerBox">
                 <div class="wrap full">
-                    <div class="bannerList">
+                    <div class="bannerList index">
                         <div class="item">
                             <div class="pic">
                                 <img data-src="./images/dummy/slider1.jpg" src="./images/dummy/slider1.jpg" alt="">
@@ -457,6 +457,11 @@
     <script>
         $(function() {
 
+            $('.bannerList').on('init', function() {
+                $(this).css({
+                    visibility: 'visible'
+                });
+            });
             $('.bannerList').slick({
                 infinite: true,
                 slidesToShow: 1,

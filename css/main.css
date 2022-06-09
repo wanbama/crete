@@ -1200,7 +1200,7 @@ footer .link a:hover {
 .mainBox {
     position: relative;
     z-index: 1;
-    /*padding-top: 10px;*/
+    padding-top: 10px;
 }
 
 @media (max-width: 767px) {

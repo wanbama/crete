@@ -308,6 +308,12 @@ header .topBox .right {
     height: 100%;
 }
 
+@media (min-width: 768px) {
+    header .topBox .right {
+        min-width: 150px;
+    }
+}
+
 @media (max-width: 767px) {
     header .bottomBox {
         display: none;
@@ -420,18 +426,15 @@ header .searchLink img {
     height: 15px;
 }
 
-
-/*
-@media (min-width: 768px) {
-  .headerTopLogo {
-    display: none;
-  }
+.headerTopLogo {
+    display: flex;
+    align-content: center;
 }
-*/
 
 .headerTopLogo img {
     display: block;
-    height: 55px;
+    height: 90px;
+    min-width: 90px;
 }
 
 .dropDownBox {
@@ -1682,7 +1685,7 @@ html[lang=zh-Hant] .mainTitle {
 
 .nextPrevBox a {
     color: #a2a2a2;
-    font-size: 18px;
+    font-size: 22px;
 }
 
 .nextPrevBox a:hover {
@@ -2104,7 +2107,7 @@ html[lang=zh-Hant] .mainTitle {
 
 @media (max-width: 640px) {
     .rowBox {
-        flex-direction: column;
+        flex-direction: column-reverse;
     }
 }
 
@@ -2459,7 +2462,7 @@ footer .shortcut {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     width: 100%;
-    right: -50%;
+    /*right: -50%;*/
 }
 
 .dropdown-content a {
@@ -2651,3 +2654,24 @@ footer .copyrightBox .right {
     position: absolute;
 }
 */
+
+#share-btn {
+    cursor: pointer;
+}
+
+.full-name {
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 20px;
+    font-size: 18px;
+    color: #2f365a;
+    font-weight: 800;
+}
+
+@media (max-width: 768px) {
+    .full-name {
+        margin-left: 10px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+}

@@ -11,7 +11,8 @@ body {
     color: #272727;
 }
 
-html[lang=zh-Hans] body {
+html[lang=zh-Hans] body,
+html[lang=zh-Hant] body {
     font-family: Helvetica, "Noto Sans SC", PingFang SC, "微軟正黑體", Arial, sans-serif;
 }
 
@@ -210,8 +211,8 @@ img {
 
 @media (max-width: 767px) {
     .wrap.ins {
-        padding-left: 15px;
-        padding-right: 15px;
+        padding-left: 25px;
+        padding-right: 25px;
     }
     .wrap.bannerfull {
         padding-left: 0px;
@@ -495,10 +496,12 @@ header .searchLink img {
     transform: translateY(0);
     opacity: 1;
     pointer-events: auto;
+    text-align: center;
 }
 
 .dropDownBox .subBox a {
     display: flex;
+    justify-content: center;
 }
 
 .dropDownBox .subBox a:not(:last-child) {
@@ -537,7 +540,7 @@ header .searchLink img {
     position: absolute;
     left: 0;
     bottom: 0;
-    width: 50px;
+    width: 100%;
     height: 2px;
     background-color: #4A5C8F;
 }
@@ -1332,6 +1335,11 @@ footer .link a:hover {
     margin-bottom: 20px;
     width: 100%;
     font-weight: 700;
+}
+
+html[lang=zh-Hans] .mainTitle,
+html[lang=zh-Hant] .mainTitle {
+    font-weight: 500;
 }
 
 @media (max-width: 480px) {
@@ -2451,6 +2459,7 @@ footer .shortcut {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
     width: 100%;
+    right: -50%;
 }
 
 .dropdown-content a {

@@ -1833,8 +1833,8 @@ html[lang=zh-Hant] .mainTitle {
 .tabLink a {
     position: relative;
     display: inline-block;
-    padding-left: 30px;
-    padding-right: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-size: 18px;
     color: #C3CBE2;
 }
@@ -2669,7 +2669,7 @@ footer .copyrightBox .right {
 
 @media (max-width: 768px) {
     .full-name {
-        margin-left: 10px;
+        margin-left: 15px;
         font-size: 15px;
         font-weight: 500;
     }
@@ -2677,7 +2677,7 @@ footer .copyrightBox .right {
 
 @media (max-width: 500px) {
     .full-name {
-        margin-left: 10px;
+        margin-left: 15px;
         font-size: 14px;
         font-weight: 500;
     }

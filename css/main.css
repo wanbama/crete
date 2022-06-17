@@ -2642,10 +2642,11 @@ footer .copyrightBox .right {
 .full-name {
     margin-top: auto;
     margin-bottom: auto;
-    margin-left: 20px;
-    font-size: 18px;
-    color: #70748d;
-    font-weight: 600;
+    margin-left: 18px;
+    font-size: 25px;
+    color: #787c94;
+    font-weight: 700;
+    line-height: normal;
 }
 
 @media (max-width: 768px) {

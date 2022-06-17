@@ -2643,10 +2643,10 @@ footer .copyrightBox .right {
     margin-top: auto;
     margin-bottom: auto;
     margin-left: 18px;
-    font-size: 25px;
+    font-size: 22px;
     color: #787c94;
     font-weight: 700;
-    line-height: normal;
+    line-height: 1.3;
 }
 
 @media (max-width: 768px) {
@@ -2660,9 +2660,20 @@ footer .copyrightBox .right {
 @media (max-width: 500px) {
     .full-name {
         margin-left: 12px;
-        font-size: 12px;
-        font-weight: 500;
+        font-size: 13px;
+        font-weight: 600;
         line-height: 1.5;
+    }
+    .headerTopLogo img {
+        display: block;
+        height: 75px;
+        min-width: 75px;
+    }
+}
+
+@media (max-width: 400px) {
+    .full-name {
+        font-size: 12px;
     }
     .headerTopLogo img {
         display: block;

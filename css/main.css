@@ -2659,7 +2659,7 @@ footer .copyrightBox .right {
 @media (max-width: 500px) {
     .full-name {
         margin-left: 10px;
-        font-size: 14px;
+        font-size: 12px;
         font-weight: 500;
     }
     .headerTopLogo img {

@@ -196,7 +196,7 @@
         display: flex;
     }
     .relatedList .itemBox .bottom {
-        background-color: #f5e2c7;
+        border: solid 1px #f2f2f2;
     }
     .polygon-top::before {
         border-color: #FFF #FFF transparent transparent;
